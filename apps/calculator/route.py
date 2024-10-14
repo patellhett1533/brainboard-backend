@@ -17,5 +17,5 @@ async def run(data: ImageData):
     data = []
     for response in responses:
         data.append(response)
-    print("response in route", responses)
+    print('response in route: ', response)
     return {"message": "Image processed", "data": data, "status": "success"}
